@@ -1,0 +1,70 @@
+.home-section__img-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15vmin;
+}
+.home-section__img {
+  --w_hex: 26.3vmin;
+  width: auto;
+  height: calc(var(--w_hex) * 1.732);
+  text-align: center;
+  /* border-radius: 50%; */
+  /* border: 1px solid black; */
+  z-index: 1;
+}
+
+.hexagon {
+  --w_hex: 21.45vmin;
+  position: absolute;
+  width: var(--w_hex);
+  height: calc(var(--w_hex) * 1.732);
+  /* border-radius: calc(var(--w_hex)/10) / calc(var(--w_hex)/20); */
+  background: #4c4c4c;
+  z-index: -2;
+  rotate: 30deg;
+  opacity: 1;
+}
+.hexagon::before,
+.hexagon::after {
+  content: "";
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  background: inherit;
+  border-radius: inherit;
+}
+.hexagon::before {
+  transform: rotate(60deg);
+}
+.hexagon::after {
+  transform: rotate(-60deg);
+}
+
+.hexagon2 {
+  --w_hex: 26vmin;
+  position: absolute;
+  width: var(--w_hex);
+  height: calc(var(--w_hex) * 1.732);
+  border-radius: calc(var(--w_hex) / 10) / calc(var(--w_hex) / 20);
+  background: #00ccff;
+  z-index: -3;
+  rotate: 45deg;
+  opacity: 0.8;
+}
+.hexagon2::before,
+.hexagon2::after {
+  content: "";
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  background: inherit;
+  border-radius: inherit;
+}
+.hexagon2::before {
+  transform: rotate(60deg);
+}
+.hexagon2::after {
+  transform: rotate(-60deg);
+}

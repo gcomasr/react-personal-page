@@ -1,0 +1,34 @@
+.home-section__info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+  min-height: 30vh;
+}
+
+.home-section__info-selection {
+  display: flex;
+  /* grid-template-columns: repeat( 3, 1fr); */
+  justify-content: center;
+  text-align: center;
+  gap: 1rem;
+}
+
+.home-section__info-btn {
+  width: 40vmin;
+}
+
+.home-section__info-btn:hover {
+  cursor: pointer;
+}
+
+.home-section__info-content {
+  display: grid;
+  font-size: 3vmin;
+  margin-top: 1rem;
+}
+
+.home-section__info-btn.active {
+  background-color: #00ccff !important;
+  border-radius: 0.6rem;
+}

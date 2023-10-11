@@ -1,0 +1,26 @@
+footer {
+  z-index: 2;
+  min-height: 5vh;
+  background: #222;
+  color: white;
+  font-size: 1.5rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+.footer__nav {
+  display: flex;
+  gap: 1rem;
+}
+
+.footer__icon {
+  color: white;
+  font-size: 2rem;
+}
+
+.footer__icon:hover {
+  color: #00ccff;
+  scale: 1.5;
+}

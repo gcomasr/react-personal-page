@@ -1,0 +1,51 @@
+@media screen and (max-width: 992px) {
+  .banner__article {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 55.5%;
+  }
+  .banner {
+    flex-direction: column;
+  }
+  .banner__article {
+    width: 80%;
+  }
+  .cards {
+    flex-direction: column;
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 48.5%;
+  }
+  header {
+    flex-direction: column;
+  }
+  .logo-figure {
+    padding-left: 0;
+  }
+
+  .home-section__info-selection,
+  .services-cards,
+  .contact__imgs-container {
+    flex-direction: column;
+  }
+  .contact__img-txt {
+    justify-content: center;
+  }
+
+  footer {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}

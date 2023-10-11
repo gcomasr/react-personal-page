@@ -1,0 +1,57 @@
+/* #root {
+  -webkit-tap-highlight-color: transparent;
+} */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  /*text-decoration: none;*/
+  outline: none;
+  /*font-weight: 300;*/
+}
+
+html {
+  /* background-color: #c9c9c9; */
+  /* background-image: url(./images/bkg.jpg); */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100vw;
+
+  /* scroll-behavior: smooth; */
+  font-size: 62.5%; /*1rem = 10px*/
+  font-family: "Quicksand", sans-serif;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #c1c1c1;
+  /* width: 100vw; */
+  max-width: 100vw;
+  margin: 0;
+  box-shadow: 0.1rem 0.1rem 0.1rem #c4c4c4, -0.1rem 0rem 0.1rem #c4c4c4;
+  display: flex;
+  flex-direction: column;
+}
+
+.text-justify {
+  text-align: justify;
+}
+.text-white {
+  color: white;
+}
+
+.btn {
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 0.6rem;
+  cursor: pointer;
+  font-size: 1.6rem;
+  padding: 1rem 1rem;
+  box-shadow: 0.1rem 0.1rem 0.1rem #222;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+}

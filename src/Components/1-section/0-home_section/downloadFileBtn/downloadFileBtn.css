@@ -1,0 +1,14 @@
+.download_btn {
+  align-self: center;
+  margin-top: 1rem;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+.download_btn:hover {
+  background-color: #4c4c4c;
+  border-radius: 0.6rem;
+  color: white;
+  transition: all 0.2s;
+}
